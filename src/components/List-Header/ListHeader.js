@@ -11,9 +11,9 @@ const ListHeader = () => {
                     </div>
                 </div>
                 <div className='ml-5'>
-                    <h2 className="text-[20px] font-semibold">Md Shakil Hossain</h2>
+                    <h2 className="text-[18px] font-semibold">Md Shakil Hossain</h2>
                     <FontAwesomeIcon className='mr-2 text-gray-400' icon={faLocationDot}></FontAwesomeIcon>
-                    <span>Bheramara, Kushtia</span>
+                    <span className='text-[16px]'>Bheramara, Kushtia</span>
                 </div>
             </div>
         </div>
