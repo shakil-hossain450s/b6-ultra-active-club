@@ -3,6 +3,7 @@ import './Card.css';
 
 const Card = ({ activity }) => {
     const { name, picture, about, time } = activity;
+
     return (
         <div className='mt-8'>
             <div className="card w-75 bg-base-100 shadow-xl border">

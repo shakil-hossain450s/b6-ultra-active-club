@@ -3,7 +3,7 @@ import ListHeader from '../List-Header/ListHeader';
 import './List.css';
 
 
-const List = () => {
+const List = (props) => {
     return (
         <div className='bg-slate-100 list-container p-5'>
             <ListHeader></ListHeader>

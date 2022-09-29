@@ -5,8 +5,8 @@ const ListHeader = () => {
     return (
         <div>
             <div className='flex items-center my-3'>
-                <div class="avatar">
-                    <div class="w-12 rounded-full border ">
+                <div className="avatar">
+                    <div className="w-12 rounded-full border ">
                         <img src="https://placeimg.com/192/192/people" />
                     </div>
                 </div>
