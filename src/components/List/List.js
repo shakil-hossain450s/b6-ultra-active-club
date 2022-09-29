@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import BreakTime from '../../BreakTime/BreakTime';
+import BreakTime from '../BreakTime/BreakTime';
 import ListHeader from '../List-Header/ListHeader';
 import ListInfo from '../ListInfo/ListInfo';
 import './List.css';
@@ -19,7 +19,6 @@ const List = ({ list }) => {
     const clickToAddBreakTime = (time) => {
         prevBreakTime = prevBreakTime + time;
         setBreakTime(prevBreakTime);
-
     }
 
     const notify = () => toast.success("WOW! Activity Completed.", {

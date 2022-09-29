@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import Cards from '../Cards/Cards';
 import List from '../List/List';
+import Question from '../Questions/Question';
 
 const Home = () => {
 
@@ -29,10 +30,16 @@ const Home = () => {
                     < FontAwesomeIcon className='text-4xl mr-3 text-blue-700 ' icon={faDumbbell} ></FontAwesomeIcon >
                     <h2 className='text-4xl font-bold text-blue-700'>Active Club</h2>
                 </div >
-                <Cards
-                    activities={activities}
-                    handleAddToTime={handleAddToTime}
-                ></Cards>
+                <div>
+                    <Cards
+                        activities={activities}
+                        handleAddToTime={handleAddToTime}
+                    ></Cards>
+                </div>
+                <div>
+                    <Question></Question>
+                </div>
+
             </div >
             <div className="">
                 <List list={list}></List>
