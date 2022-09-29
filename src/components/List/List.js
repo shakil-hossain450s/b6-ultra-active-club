@@ -5,7 +5,7 @@ import ListInfo from '../ListInfo/ListInfo';
 import './List.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { addToDb } from '../../Utilities/Utilities';
+import { addToDb } from '../Utilities/Utilities';
 
 
 const List = ({ list }) => {
