@@ -5,6 +5,7 @@ import ListInfo from '../ListInfo/ListInfo';
 import './List.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { addToDb } from '../../Utilities/Utilities';
 
 
 const List = ({ list }) => {
@@ -19,6 +20,7 @@ const List = ({ list }) => {
     const clickToAddBreakTime = (time) => {
         prevBreakTime = prevBreakTime + time;
         setBreakTime(prevBreakTime);
+        addToDb(time);
     }
 
     const notify = () => toast.success("WOW! Activity Completed.", {
@@ -28,7 +30,7 @@ const List = ({ list }) => {
         <div className='bg-slate-100 list-container p-5'>
             <ListHeader></ListHeader>
             <ListInfo></ListInfo>
-            <BreakTime list={list} clickToAddBreakTime={clickToAddBreakTime}></BreakTime>
+            <BreakTime clickToAddBreakTime={clickToAddBreakTime}></BreakTime>
             <div className='mt-8'>
                 <h2 className='text-[18px] mb-3'>Exercise Details</h2>
                 <div className='flex justify-between bg-slate-200 p-5 rounded-lg mb-3'>

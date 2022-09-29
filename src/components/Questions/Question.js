@@ -5,7 +5,7 @@ const Question = () => {
         <div className='mt-8'>
             <h2 className='text-center text-[24px] font-semibold'>Questions Answer</h2>
             <div>
-                <div tabindex="0" className="mt-4 collapse collapse-arrow border border-base-300 bg-base-100 rounded-box shadow-xl">
+                <div tabIndex="0" className="mt-4 collapse collapse-arrow border border-base-300 bg-base-100 rounded-box shadow-xl">
                     <div className="px-8 collapse-title text-[22px] font-medium">
                         How does React works?
                     </div>
@@ -15,7 +15,7 @@ const Question = () => {
                         </p>
                     </div>
                 </div>
-                <div tabindex="1" className="mt-4 collapse collapse-arrow border border-base-300 bg-base-100 rounded-box shadow-xl">
+                <div tabIndex="1" className="mt-4 collapse collapse-arrow border border-base-300 bg-base-100 rounded-box shadow-xl">
                     <div className="collapse-title text-xl font-medium">
                         Props and state difference?
                     </div>
@@ -25,7 +25,7 @@ const Question = () => {
                         </p>
                     </div>
                 </div>
-                <div tabindex="2" className="mt-4 collapse collapse-arrow border border-base-300 bg-base-100 rounded-box shadow-xl">
+                <div tabIndex="2" className="mt-4 collapse collapse-arrow border border-base-300 bg-base-100 rounded-box shadow-xl">
                     <div className="collapse-title text-xl font-medium">
                         The useEffect key does anything other than Api data load
                     </div>
