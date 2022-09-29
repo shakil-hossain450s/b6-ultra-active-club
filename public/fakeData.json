@@ -1,0 +1,58 @@
+[
+    {
+        "id": "63352747f5535f89f230fce5",
+        "time": 100,
+        "picture": "https://images.unsplash.com/photo-1536922246289-88c42f957773?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=904&q=80",
+        "name": "10 Squats",
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellendus dicta veritatis illum animi ad deserunt rem neque voluptatum cumque?"
+    },
+    {
+        "id": "63352747cebacc3c20db4455",
+        "time": 100,
+        "picture": "https://media.istockphoto.com/photos/happy-man-and-woman-jumping-outdoors-picture-id621391320",
+        "name": "10 Jumping Jacks",
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellendus dicta veritatis illum animi ad deserunt rem neque voluptatum cumque?"
+    },
+    {
+        "id": "633527471166cd80bbd96940",
+        "time": 100,
+        "picture": "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "name": "10 High Kness",
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellendus dicta veritatis illum animi ad deserunt rem neque voluptatum cumque?"
+    },
+    {
+        "id": "63352747556e8fdff66a3f92",
+        "time": 100,
+        "picture": "https://images.unsplash.com/photo-1566351566999-d975d35c3325?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "name": "10 Push Ups",
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellendus dicta veritatis illum animi ad deserunt rem neque voluptatum cumque?"
+    },
+    {
+        "id": "63352747cdfff97915b103c2",
+        "time": 100,
+        "picture": "https://media.istockphoto.com/photos/increasing-back-shoulder-and-arm-strength-picture-id1002863304",
+        "name": "10 Sit ups",
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellendus dicta veritatis illum animi ad deserunt rem neque voluptatum cumque?"
+    },
+    {
+        "id": "6335274770b5c8e8d9e9ea80",
+        "time": 100,
+        "picture": "https://media.istockphoto.com/photos/taking-my-best-shot-picture-id536918865?s=612x612",
+        "name": "10 Front Kicks",
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellendus dicta veritatis illum animi ad deserunt rem neque voluptatum cumque?"
+    },
+    {
+        "id": "63352747a359537df1e0855b",
+        "time": 100,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP4uRScC6K6JJ0mdM836VE3HCxym9L2-fxzI0BqjxBmOHMhKh835ofMaLr4duWIPf7bbA&usqp=CAU",
+        "name": "10 Punches",
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellendus dicta veritatis illum animi ad deserunt rem neque voluptatum cumque?"
+    },
+    {
+        "id": "6335274711e0d6aafe9b3560",
+        "time": 100,
+        "picture": "https://media.istockphoto.com/photos/vintage-dumbbells-on-the-wooden-floor-picture-id524029886?k=20&m=524029886&s=612x612&w=0&h=-uNdL-gy8hgOLw7WhU1aHNTo1gufCMc0B3qtef1IKwo=",
+        "name": "10 Dumbles",
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellendus dicta veritatis illum animi ad deserunt rem neque voluptatum cumque?"
+    }
+]
