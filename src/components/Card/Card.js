@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-const Card = ({ activity }) => {
+const Card = ({ activity, handleAddToTime }) => {
     const { name, picture, about, time } = activity;
 
     return (
@@ -14,7 +14,7 @@ const Card = ({ activity }) => {
                     <p>For Age: <span className='font-semibold'>20-25</span></p>
                     <p>Time Required: <span className='font-semibold'>{time}s</span></p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary w-full mt-5">Add To List</button>
+                        <button onClick={() => handleAddToTime(activity)} className="btn btn-primary w-full mt-5">Add To List</button>
                     </div>
                 </div>
             </div>
